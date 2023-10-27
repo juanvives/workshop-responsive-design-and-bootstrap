@@ -1,0 +1,55 @@
+/* Estilos header */
+
+nav {
+  background-color: rgb(108,117,125);
+  /* No haya márgenes en la barra de navegación */
+  margin: 0; 
+  padding: 0;
+}
+
+header {
+  margin: 0;
+  /* El ancho del encabezado (<header>) sea el 100% del ancho de la ventana del navegador */
+  width: 100%;
+}
+
+.text-gray {
+  color: #545b61;
+}
+
+#t_and_tl {
+  padding: 50px;
+}
+
+
+header.container-fluid {
+  width: 100%;
+}
+
+section p {
+  background-color: rgb(248,249,250);
+}
+
+/* Seperacion en el boton del nav */
+@media (max-width: 991px) {
+  .collapse.navbar-collapse {
+    margin-top: 10px;
+  }
+}
+
+/* Hasta pantallas medium maximo*/
+@media (max-width: 991px) {
+  .form-inline.ml-auto.mx-auto.col-1 {
+    display: none;
+  }
+
+  /* Distancias al anv */
+  div.d-lg-block.collapse.show {
+    padding-top: 3.5rem;
+  }
+
+  section {
+    padding-top: 3.5rem;
+  }
+  
+}
